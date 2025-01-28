@@ -185,6 +185,24 @@ apply_button.pack(pady=5)
 reset_button = ttk.Button(settings_frame, text="Reset to Default", command=reset_settings)
 reset_button.pack(pady=5)
 
+# Tab 3: About
+about_frame = ttk.Frame(notebook)
+notebook.add(about_frame, text="About")
+
+about_label = ttk.Label(about_frame, text="PixFormat - Image Format Converter", font=(settings["font_style"], 16))
+about_label.pack(pady=10)
+
+about_text = """
+PixFormat is a simple image format converter tool built with Python.
+It allows you to convert images between various formats like PNG, JPG, BMP, TIFF, and more.
+This tool also allows you to customize fonts and themes for a better user experience.
+
+Version: 1.0.0
+Author: Sheekovic
+"""
+about_info = ttk.Label(about_frame, text=about_text, font=(settings["font_style"], settings["font_size"]))
+about_info.pack(pady=10)
+
 # Create tooltips
 create_tooltip(theme_combobox, "Select a theme for the application")
 create_tooltip(font_style_combobox, "Select a font style")
