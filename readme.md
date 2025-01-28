@@ -65,7 +65,7 @@ python main.py
 ## Screenshots
 
 ![PixFormat Screenshot](screenshots/scr1.png)
-![PixFormat Screenshot](screenshots/scr2.png)
+![PixFormat Screenshot](screenshots/scr5.png)
 ![PixFormat Screenshot](screenshots/scr3.png)
 ![PixFormat Screenshot](screenshots/scr4.png)
 
